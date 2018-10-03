@@ -1,0 +1,24 @@
+{
+  "name": "techshark/payload-encryption",
+  "description": "The payload encryption test package.",
+  "license": "proprietary",
+  "type": "library",
+  "version": "1.0",
+  "require": {
+    "php": "7.0.*",
+    "laravel/framework": "5.5.*",
+    "phpseclib/phpseclib": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Techshark\\PayloadEncryption\\": "src"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
